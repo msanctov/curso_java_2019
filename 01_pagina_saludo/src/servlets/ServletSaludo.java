@@ -20,7 +20,7 @@ public class ServletSaludo extends HttpServlet {
 		out.println("<html>");
 		out.println("<body><center>");
 		for(int i=1;i<=6;i++) {
-			out.println("<h"+i+">Bienvenido a mi servlet final</h"+i+">");
+			out.println("<h"+i+">Bienvenido a mi servlet final v4</h"+i+">");
 		}
 		
 		out.println("</center></body>");
